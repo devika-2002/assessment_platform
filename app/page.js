@@ -1,10 +1,14 @@
 import React from 'react';
-import "./globals.css";
+import Header from './Components/Header';
+import MainContenr from './Components/MainContainer';
+import Footer from './Components/Footer';
 
 function page() {
   return (
-    <div>
-      hello
+    <div className='main-div'>
+      <Header/>
+      <MainContenr/>
+      <Footer/>
     </div>
   )
 }
