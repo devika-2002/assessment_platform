@@ -28,7 +28,7 @@ function MainContenr() {
         <div className='border-line'></div>
 
         <div className='button-box'>
-          <div className="button-box1">Let's Start!</div>
+          <div className="button-box1">Lets Start!</div>
         </div>
 
       </div>
