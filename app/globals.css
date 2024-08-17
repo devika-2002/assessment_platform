@@ -36,6 +36,8 @@ body {
 }
 
 .text-mcq {
+  color: var(--Dark-b, #4C4B49);
+  font-family: Inter;
   text-align: center;
   padding: 55px 0px 19px;
   font-size: 24px;
@@ -53,6 +55,8 @@ body {
 }
 
 .text-1 {
+  color: var(--Dark-b, #4C4B49);
+  font-family: Inter;
   margin-left: 117px;
   margin-right: 116px;
   margin-top: 40px;
@@ -102,6 +106,10 @@ body {
   margin-right: 116px;
 }
 
+b{
+  color: var(--Dark-b, #4C4B49);
+  font-family: Inter;
+}
 .border-line {
   border: 1px solid black;
   width: 620px;
@@ -132,6 +140,8 @@ body {
   font-weight: 400;
   line-height: normal;
   font-family: Inter;
+  border: none;
+  background-color: #FEEEB4;
 }
 
 .footer {
@@ -147,7 +157,7 @@ h2 {
   text-align: center;
 }
 
-p {
+.footer-text {
   text-align: center;
 }
 
@@ -171,13 +181,13 @@ p {
     margin-bottom: 56px;
   }
 
-  .border-line {
+  /* .border-line {
     width: 280px;
     border: 1px solid black;
     margin-left: 20px;
     margin-right: 20px;
   }
-
+ */
   .text-1 {
     margin-top: 40px;
     font-size: 18px;
@@ -188,6 +198,7 @@ p {
   }
 
   .text-2 {
+    
     margin-left: 20px;
     margin-right: 20px;
     font-size: 14px;
@@ -249,7 +260,7 @@ p {
     text-align: center;
   }
   
-  p {
+  .footer-text {
     text-align: center;
     font-size: 14px;
   }

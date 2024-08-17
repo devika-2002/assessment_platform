@@ -1,4 +1,4 @@
-import { Span } from 'next/dist/trace';
+// import { Span } from 'next/dist/trace';
 import React from 'react';
 
 function MainContenr() {
@@ -22,13 +22,15 @@ function MainContenr() {
         <div className='text-4'>Please ensure a stable internet connection. If you encounter any issues, contact support immediately.</div>
         <div className='text-5'> 
           <div>Click 'Lets Start' to begin the test. </div>
-          <div><b>Good luck</b></div>
+          <b>Good luck!</b>
         </div>
 
         <div className='border-line'></div>
 
         <div className='button-box'>
-          <div className="button-box1">Lets Start!</div>
+          <a className='' href='./McqComponents'>
+            <button className="button-box1">Lets Start!</button>
+          </a>
         </div>
 
       </div>

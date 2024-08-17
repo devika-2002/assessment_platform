@@ -1,0 +1,51 @@
+
+.col-2 {
+    border: 1px solid green;
+    float: left;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 30px;
+    width: 440px;
+    margin-left: 712px;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.less-than-symbol {
+    float: left;
+    width: 28px;
+    height: 28px;
+    stroke-width: 1px;
+}
+
+
+.greater-than-symbol {
+    width: 28px;
+    height: 28px;
+    stroke-width: 1px;
+}
+
+.num1 {
+    display: flex;
+    width: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--Dark-b, #4C4B49);
+    padding: 6px;
+}
+
+.num2{
+    border: 1px solid black;
+    display: flex;
+    width: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+}
+
