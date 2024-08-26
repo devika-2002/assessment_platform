@@ -12,7 +12,9 @@ function Header() {
       <Pagination />
 
       <div className='col3'>
-        <button className='submit-but'>Submit</button>
+        <a className='' href='./Submit'>
+          <button className='submit-but'>Submit</button>
+        </a>
       </div>
     </div>
   )

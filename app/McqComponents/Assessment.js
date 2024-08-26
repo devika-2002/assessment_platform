@@ -2,7 +2,7 @@ import React from 'react'
 
 function A() {
   return (
-    < div >
+    <div className='assessment-div'>
       <div className='div1'>
         <div className='text1'>Filters</div>
         <div className='col4'>
@@ -54,7 +54,7 @@ function A() {
           </div>
         </div>
 
-        <div className='que-div2'>
+         <div className='que-div2'>
           <div className='div3'>
             <div className='question1'>Question 2</div>
             <div className='score_text'>Score +1</div>
@@ -83,7 +83,7 @@ function A() {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
 
         <div className='que-div2'>
           <div className='div3'>
