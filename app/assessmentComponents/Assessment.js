@@ -1,6 +1,6 @@
 import React from 'react'
 
-function A() {
+function Assessment() {
   return (
     <div className='assessment-div'>
       <div className='div1'>
@@ -185,4 +185,4 @@ function A() {
   )
 }
 
-export default A
+export default Assessment;

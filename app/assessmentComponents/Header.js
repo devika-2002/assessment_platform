@@ -1,6 +1,6 @@
-import React from 'react'
-import Pagination from './Pagination'
-
+import React from 'react';
+import Pagination from './Pagination';
+import Timer from './Timer';
 function Header() {
   return (
     <div className='header-1'>
@@ -8,11 +8,11 @@ function Header() {
         <img className="Logo" src="Logo Grp.svg" />
         <div className="text-AQ">QA</div>
       </div>
-
+      <Timer/>
       <Pagination />
 
       <div className='col3'>
-        <a className='' href='./Submit'>
+        <a className='' href='./assessmentSubmitComponents'>
           <button className='submit-but'>Submit</button>
         </a>
       </div>
@@ -20,4 +20,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;

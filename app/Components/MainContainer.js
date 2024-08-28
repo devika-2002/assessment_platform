@@ -28,7 +28,7 @@ function MainContenr() {
         <div className='border-line'></div>
 
         <div className='button-box'>
-          <a className='' href='./McqComponents'>
+          <a className='' href='./assessmentComponents'>
             <button className="button-box1">Lets Start!</button>
           </a>
         </div>
