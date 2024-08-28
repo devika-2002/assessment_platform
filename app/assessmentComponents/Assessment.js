@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Assessment() {
   return (
@@ -54,7 +54,7 @@ function Assessment() {
           </div>
         </div>
 
-         <div className='que-div2'>
+        <div className='que-div2'>
           <div className='div3'>
             <div className='question1'>Question 2</div>
             <div className='score_text'>Score +1</div>
@@ -83,7 +83,7 @@ function Assessment() {
               </div>
             </div>
           </div>
-        </div> 
+        </div>
 
         <div className='que-div2'>
           <div className='div3'>

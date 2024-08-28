@@ -16,9 +16,10 @@ body {
 .col2 {
     float: left;
     width: 112px;
-    margin:auto;
+    margin: auto;
     margin-top: 18px;
     margin-bottom: 18px;
+    display: flex;
 }
 
 .col3 {
@@ -28,8 +29,8 @@ body {
     align-items: center;
     gap: 10px;
     border-radius: 4px;
-    border: 2px solid var(--Accent, #F4D150);
-    background: var(--Accent-Light, #FEEEB4);
+    border: 2px solid #F4D150;
+    background: #FEEEB4;
     box-shadow: 0px 4px 7px 0px #B3AE9C;
     margin-top: 9px;
     margin-bottom: 9px;
@@ -37,17 +38,15 @@ body {
 }
 
 .submit-but {
-    color: var(--Dark-a, #1F1E1C);
-    font-family: Inter;
+    color: #1F1E1C;
+    font-family: "Inter";
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    background: var(--Accent-Light, #FEEEB4);
+    background: #FEEEB4;
     border: none;
 }
 
-.assessment-div{
+.assessment-div {
     width: 894px;
     margin-top: 66px;
     margin: auto;
@@ -59,24 +58,24 @@ body {
     width: 284px;
     flex-shrink: 0;
     border-radius: 12px;
-    border: 1px dashed var(--Dark-c, #777671);
-    background: var(--Light-b, #F9F7F2);   
-    margin-top: 153px; 
+    border: 1px dashed #777671;
+    background: #F9F7F2;
+    margin-top: 153px;
 }
-.text1{
+
+.text1 {
     width: 197px;
     margin-top: 36px;
     margin-left: 38px;
     margin-right: 49px;
-    color: var(--Dark-b, #4C4B49);
+    color: #4C4B49;
     align-self: stretch;
     font-family: "Inria Sans";
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
 }
+
 .col4 {
     width: 196px;
     margin-left: 38px;
@@ -88,12 +87,10 @@ body {
 
 .text2 {
     width: 104px;
-    color: var(--Dark-a, #1F1E1C);
+    color: #1F1E1C;
     font-family: "Inria Sans";
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .col5 {
@@ -116,11 +113,11 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    border: 1px solid var(--Dark-b, #4C4B49);
-    background: var(--Dark-b, #4C4B49);
+    border: 1px solid #4C4B49;
+    background: #4C4B49;
 }
 
-.score{
+.score {
     display: flex;
     padding: 10px 12px;
     flex-direction: column;
@@ -128,49 +125,50 @@ body {
     align-items: center;
     gap: 10px;
     border-radius: 4px;
-    border: 1px solid var(--Accent, #F4D150);
-    background: var(--Accent-Light, #FEEEB4);
+    border: 1px solid #F4D150;
+    background: #FEEEB4;
 }
-.score1{
+
+.score1 {
     width: 17px;
     height: 22px;
     display: flex;
 }
-.score2{
+
+.score2 {
     display: flex;
     width: 16px;
     height: 22px;
 }
-.score3{
+
+.score3 {
     display: flex;
     width: 19px;
     height: 22px;
 }
 
-.col6{
+.col6 {
     width: 206px;
     height: 99px;
     margin-top: 48px;
     margin-bottom: 60px;
 }
 
-.text3{
+.text3 {
     width: 148px;
-    color: var(--Dark-a, #1F1E1C);
+    color: #1F1E1C;
     font-family: "Inria Sans";
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
-.col7{
+.col7 {
     width: 206px;
     height: 64px;
     margin-top: 16px;
 }
 
-.text4{
+.text4 {
     float: left;
     display: flex;
     justify-content: center;
@@ -179,19 +177,19 @@ body {
     width: 43px;
     height: 17px;
     padding: 6px 12px;
-    color: var(--Light-b, #F9F7F2);
+    color: #F9F7F2;
     font-family: "Inria Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 120%; 
+    line-height: 120%;
     border-radius: 54px;
-    border: 1px solid var(--Dark-b, #4C4B49);
-    background: var(--Dark-b, #4C4B49);
+    border: 1px solid #4C4B49;
+    background: #4C4B49;
     margin-right: 6px;
 
 }
-.text5{
+
+.text5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,23 +197,22 @@ body {
     width: 85px;
     height: 17px;
     padding: 6px 12px;
-    color: var(--Dark-a, #1F1E1C);
+    color: #1F1E1C;
     font-family: "Inria Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 120%; 
+    line-height: 120%;
     border-radius: 54px;
-    border: 1px solid var(--Accent, #F4D150);
-    background: var(--Accent-Light, #FEEEB4);
+    border: 1px solid #F4D150;
+    background: #FEEEB4;
 }
-.text6{
+
+.text6 {
     width: 108px;
     height: 17px;
-    color: var(--Dark-a, #1F1E1C);
+    color: #1F1E1C;
     font-family: "Inria Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 120%;
     margin-top: 6px;
@@ -225,48 +222,47 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 54px;
-    border: 1px solid var(--Accent, #F4D150);
-    background: var(--Accent-Light, #FEEEB4);
+    border: 1px solid #F4D150;
+    background: #FEEEB4;
 }
 
 .div2 {
-    /* border: 1px solid black; */
     width: 560px;
     float: right;
     margin-top: 66px;
 
 }
-.div3{
+
+.div3 {
     width: 560px;
     height: 19px;
 }
-.question1{
+
+.question1 {
     float: left;
     width: 400px;
     height: 19px;
     margin-right: 8px;
-    color: var(--Dark-a, #1F1E1C);
+    color: #1F1E1C;
     font-family: "Inria Sans";
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
 }
-.score_text{
+
+.score_text {
     float: left;
     width: 144px;
     height: 21px;
-    color: var(--Dark-a, #1F1E1C);
+    color: #1F1E1C;
     text-align: right;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
 }
 
-.div4{
+.div4 {
     width: 480px;
     margin-top: 16px;
     display: flex;
@@ -275,37 +271,38 @@ body {
     align-items: flex-start;
     gap: 28px;
     border-radius: 12px;
-    background: var(--Light-a, #FCFAFA);
+    background: #FCFAFA;
 }
 
 /* .mcq-div1{
     border:  1px solid white;
 } */
 
-.mcq-que1{
+.mcq-que1 {
     width: 480px;
-    color: var(--Dark-a, #1F1E1C);
-    font-family: Inter;
+    color: #1F1E1C;
+    font-family: "Inter";
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
     line-height: 160%;
 }
-.mcq-option{
+
+.mcq-option {
     width: 236px;
     height: 132px;
     margin-top: 28px;
 }
-.option1{
+
+.option1 {
     height: 21px;
 }
-.text-option-1{
-    color: var(--Dark-b, #4C4B49);
-    font-family: Inter;
+
+.text-option-1 {
+    color: #4C4B49;
+    font-family: "Inter";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
 }
 
 .circle1 {
@@ -315,25 +312,25 @@ body {
     width: 8px;
     height: 8px;
     flex-shrink: 0;
-    fill: var(--Accent, #F4D150);
-    border-radius: 50%; 
+    fill: #F4D150;
+    border-radius: 50%;
     margin-left: 5px;
     margin-top: 4.5px;
 }
 
-.option2{
+.option2 {
     margin-top: 12px;
     height: 21px;
 }
 
-.text-option-2{
-    color: var(--Dark-b, #4C4B49);
-    font-family: Inter;
+.text-option-2 {
+    color: #4C4B49;
+    font-family: "Inter";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
 }
+
 .circle2 {
     border: 1px solid black;
     float: left;
@@ -341,26 +338,26 @@ body {
     width: 8px;
     height: 8px;
     flex-shrink: 0;
-    fill: var(--Accent, #F4D150);
-    border-radius: 50%; 
+    fill: #F4D150;
+    border-radius: 50%;
     margin-left: 5px;
     margin-top: 4.5px;
 }
 
 
-.option3{
+.option3 {
     margin-top: 12px;
     height: 21px;
 }
 
-.text-option-3{
-    color: var(--Dark-b, #4C4B49);
-    font-family: Inter;
+.text-option-3 {
+    color: #4C4B49;
+    font-family: "Inter";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
 }
+
 .circle3 {
     border: 1px solid black;
     float: left;
@@ -368,25 +365,25 @@ body {
     width: 8px;
     height: 8px;
     flex-shrink: 0;
-    fill: var(--Accent, #F4D150);
-    border-radius: 50%; 
+    fill: #F4D150;
+    border-radius: 50%;
     margin-left: 5px;
     margin-top: 4.5px;
 }
 
-.option4{
+.option4 {
     margin-top: 12px;
     height: 21px;
 }
 
-.text-option-4{
-    color: var(--Dark-b, #4C4B49);
-    font-family: Inter;
+.text-option-4 {
+    color: #4C4B49;
+    font-family: "Inter";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
 }
+
 .circle4 {
     border: 1px solid black;
     float: left;
@@ -394,17 +391,56 @@ body {
     width: 8px;
     height: 8px;
     flex-shrink: 0;
-    fill: var(--Accent, #F4D150);
-    border-radius: 50%; 
+    fill: #F4D150;
+    border-radius: 50%;
     margin-right: 18px;
     margin-left: 5px;
     margin-top: 4.5px;
 }
 
-.que-div2{
+.que-div2 {
     /* border: 1px solid black; */
     margin-top: 40px;
     width: 560px;
     /* height: 321px; */
 }
 
+
+
+@media (max-width: 576px) {
+    .body {
+        margin: auto;
+    }
+
+    .header-1 {
+        width: 576px;
+    }
+
+    .col2 {
+        width: 112px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        margin-left: 133px;
+        margin-right: 115px;
+    }
+
+    .timer-div {
+        width: 110px;
+        margin-top: 645px;
+    }
+
+    .timer-text {
+        display: none;
+    }
+
+    .col-2 {
+        width: 322px;
+        margin: auto;
+    }
+
+    .col3 {
+        display: none;
+    }
+
+
+}

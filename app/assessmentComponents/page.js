@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 import Header from './Header';
 import "./assessment.css";
-import Assessment from './Assessment'
-import Footer from "../Components/Footer"
+import Assessment from './Assessment';
+import Footer from "../Components/Footer";
 
 function McqComponent() {
   return (
     <div className='mcq-div'>
-      <Header/>
-      <Assessment/>
-      <Footer/>
+      <Header />
+      <Assessment />
+      <Footer />
     </div>
   )
 }

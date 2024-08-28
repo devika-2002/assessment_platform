@@ -1,6 +1,7 @@
 import React from 'react';
 import Pagination from './Pagination';
 import Timer from './Timer';
+
 function Header() {
   return (
     <div className='header-1'>
@@ -8,7 +9,7 @@ function Header() {
         <img className="Logo" src="Logo Grp.svg" />
         <div className="text-AQ">QA</div>
       </div>
-      <Timer/>
+      <Timer />
       <Pagination />
 
       <div className='col3'>

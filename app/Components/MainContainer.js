@@ -1,4 +1,3 @@
-// import { Span } from 'next/dist/trace';
 import React from 'react';
 
 function MainContenr() {
@@ -20,7 +19,7 @@ function MainContenr() {
         </div>
 
         <div className='text-4'>Please ensure a stable internet connection. If you encounter any issues, contact support immediately.</div>
-        <div className='text-5'> 
+        <div className='text-5'>
           <div>Click 'Lets Start' to begin the test. </div>
           <b>Good luck!</b>
         </div>

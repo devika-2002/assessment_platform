@@ -13,10 +13,26 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {children}</body>
-        {/* <div>
-          <Footer/>
-        </div> */}
+        {children}
+
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Josefin Sans"
+        />
+
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter"
+        />
+
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inria Sans"
+        />
+
+
+
+      </body>
     </html>
   );
 }

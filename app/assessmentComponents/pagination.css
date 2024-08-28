@@ -1,4 +1,3 @@
-
 .col-2 {
     border: 1px solid green;
     float: left;
@@ -34,11 +33,11 @@
     align-items: center;
     gap: 10px;
     border-radius: 30px;
-    background: var(--Dark-b, #4C4B49);
+    background: #4C4B49;
     padding: 6px;
 }
 
-.num2{
+.num2 {
     border: 1px solid black;
     display: flex;
     width: 30px;
@@ -48,4 +47,3 @@
     gap: 10px;
     border-radius: 30px;
 }
-
