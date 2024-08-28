@@ -28,22 +28,25 @@
 .num1 {
     display: flex;
     width: 30px;
+    padding: 3px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 30px;
-    background: #4C4B49;
-    padding: 6px;
+    border: 2px solid #E0DFDA;
+    background-color: black;
+    color: white;
 }
 
 .num2 {
-    border: 1px solid black;
     display: flex;
     width: 30px;
+    padding: 3px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 30px;
+    border: 2px solid #E0DFDA;
 }

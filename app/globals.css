@@ -45,7 +45,6 @@ body {
   padding: 55px 0px 19px;
   font-size: 24px;
   font-weight: 600;
-  font-style: normal;
   line-height: 120%;
 }
 
@@ -68,6 +67,7 @@ body {
 }
 
 .text-2 {
+  color: #4C4B49;
   margin-left: 117px;
   margin-right: 116px;
   font-size: 14px;
@@ -92,6 +92,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
+  color: #4C4B49;
 }
 
 .text-5 {
@@ -101,6 +102,8 @@ body {
   margin-top: 8px;
   margin-left: 117px;
   margin-right: 116px;
+  color: #4C4B49;
+
 }
 
 b {
@@ -117,7 +120,7 @@ b {
 }
 
 .button-box {
-  border: 1px solid #F4D150;
+  border: 2px solid #F4D150;
   background-color: #FEEEB4;
   width: 159px;
   height: 54px;
