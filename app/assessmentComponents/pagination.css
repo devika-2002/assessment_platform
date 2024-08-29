@@ -1,6 +1,5 @@
 .col-2 {
-    border: 1px solid green;
-    float: left;
+    /* border: 1px solid green; */
     display: flex;
     align-items: center;
     gap: 16px;
@@ -8,11 +7,10 @@
     width: 440px;
     margin-top: 25px;
     margin-bottom: 17px;
-    margin-left: 436px;
+    margin-left: 440px;
 }
 
 .less-than-symbol {
-    float: left;
     width: 28px;
     height: 28px;
     stroke-width: 1px;
@@ -40,10 +38,10 @@
 }
 
 .num2 {
-    display: flex;
     width: 30px;
     padding: 3px;
     flex-direction: column;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;

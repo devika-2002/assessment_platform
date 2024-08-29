@@ -1,12 +1,11 @@
 .timer-div {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 152px;
     height: 180px;
-    margin-left: 235px;
-    margin-right: 57px;
     margin-top: 25px;
     text-align: center;
-    position: absolute;
+    position: fixed;
+    /* position: relative; */
 }
 
 .time {
