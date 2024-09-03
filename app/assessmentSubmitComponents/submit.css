@@ -1,0 +1,42 @@
+body {
+    margin: auto;
+    background-color: #EBE9E6;
+}
+
+.sub-div {
+    border: 1px solid black;
+    width: 705px;
+    height: 516px;
+    margin: auto;
+    margin-top: 103px;
+    background-color: white;
+}
+
+.logo-group {
+    border: 1px solid black;
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    margin-top: 65px;
+    background-color: #88BE37
+}
+
+.logo-img {
+    fill: var(--Success, #88BE37);
+    flex-shrink: 0;
+}
+.sub-div1{
+    border: 1px solid black;
+    width: 319px;
+    height: 141px;
+    margin: auto;
+    margin-top: 115px;
+}
+
+.sub-div2{
+    border: 1px solid black;
+    width: 222px;
+    height: 54px;
+    margin: auto;
+    margin-top: 98px;
+}

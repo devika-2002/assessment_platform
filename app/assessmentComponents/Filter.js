@@ -1,10 +1,12 @@
 import React from 'react';
 import "./filter.css";
-
+import Timer from "./Timer"
 function Filter() {
   return (
     <div>
+      <Timer />
       <div className='div1'>
+
         <div className='text1'>Filters</div>
         <div className='col4'>
           <div className='text2'>Question Score</div>

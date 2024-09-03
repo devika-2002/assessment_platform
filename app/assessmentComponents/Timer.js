@@ -4,7 +4,6 @@ import "./timer.css";
 function timer() {
   return (
     <div className='timer-div'>
-      
       <div className='time'>
         <div className='inside-div1'>
           <div className='inside-div2'>

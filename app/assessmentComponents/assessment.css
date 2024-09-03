@@ -1,19 +1,22 @@
 body {
     margin: auto;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
+
 .mcq-div {
     background-color: #EBE9E6;
     margin: auto;
 }
 
-.assessment-div1{
-    border: 1px solid black;
+.assessment-div1 {
     width: 1200px;
     margin: auto;
+    margin-top: -180px;
 }
+
 .assessment-div2 {
     border: 1px solid black;
     width: 894px;
@@ -21,48 +24,80 @@ body {
     margin-left: 103px;
     margin-right: 203px;
 }
-
-.header-1 {
+.header-main-div{
+    border: 1px solid black;
     width: 100%;
     background-color: white;
-}
+    margin: auto;
 
-.header-2{
-    display: flex;
+}
+.header-1 {
+    border: 1px solid black;
     width: 1200px;
     margin: auto;
-}
-.col2 {
-    width: 112px;
-    margin: auto;
-    margin-top: 18px;
-    margin-bottom: 18px;
     display: flex;
+    justify-content: space-between;
+    background: #FCFAFA;
 }
 
-.col3 {
-    width: 130px;
+.header-div1 {
+    border: 1px solid black;
+    width: 998px;
     display: flex;
+    justify-content: space-between;
+}
+
+.header-col-1 {
+    border: 1px solid black;
+    width: 112px;
+    height: 36px;
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.Logo-1 {
+    width: 56px;
+}
+
+.text-AQ-1 {
+    width: 48px;
+    height: 29px;
+    margin-top: 7px;
+    margin-left: 8px;
+    color: #8F887C;
+    font-family: "Josefin Sans";
+    font-size: 28.736px;
+    font-weight: 700;
+    letter-spacing: 1.437px;
+    text-transform: uppercase;
+}
+
+.header-div2 {
+    width: 130px;
+    display: inline-flex;
+    padding: 16px 35px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     border-radius: 4px;
     border: 2px solid #F4D150;
     background: #FEEEB4;
     box-shadow: 0px 4px 7px 0px #B3AE9C;
+    gap: 10px;
     margin-top: 9px;
     margin-bottom: 9px;
-    margin-left: 72px;
 }
 
-.submit-but {
+.sub-button {
+    border: none;
     color: #1F1E1C;
     font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
     background: #FEEEB4;
-    border: none;
 }
+
+
 /* .Mcq-que{
     display: flex;
 } */
@@ -252,7 +287,13 @@ body {
         margin: auto;
     }
 
-    .header-1 {
+    .header-1{
+        border: 1px solid black;
+        width: 100%;
+    }
+
+
+    /* .header-1 {
         width: 576px;
     }
 
@@ -280,7 +321,6 @@ body {
 
     .col3 {
         display: none;
-    }
-
+    } */
 
 }
