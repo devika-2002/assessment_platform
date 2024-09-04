@@ -3,8 +3,8 @@ import "./timer.css";
 
 function timer() {
   return (
-    <div className='timer-div'>
-      <div className='time'>
+    <div className='timer-container'>
+      <div className='timer'>
         <div className='inside-div1'>
           <div className='inside-div2'>
             <div className='col-div1'>

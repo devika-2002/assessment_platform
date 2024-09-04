@@ -3,20 +3,20 @@ import Pagination from './Pagination';
 
 function Header() {
   return (
-    <div className='header-main-div'>
-      <div className='header-1'>
-        <div className='header-div1'>
+    <div className='header-container'>
+      <div className='header-row'>
+        <div className='logo-pagination'>
 
-          <div className='header-col-1'>
+          <div className='logo-container'>
             <img className="Logo-1" src="Logo Grp.svg" />
             <div className="text-AQ-1">QA</div>
           </div>
 
-          <div className='header-col-2'>
+          <div className='header-pagination'>
             <Pagination />
           </div>
         </div>
-        <div className='header-div2'>
+        <div className='submit-container'>
           <button className='sub-button'>Submit</button>
         </div>
       </div>

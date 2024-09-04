@@ -1,3 +1,4 @@
+
 body {
     margin: auto;
 }
@@ -11,28 +12,13 @@ body {
     margin: auto;
 }
 
-.assessment-div1 {
-    width: 1200px;
-    margin: auto;
-    margin-top: -180px;
-}
-
-.assessment-div2 {
-    border: 1px solid black;
-    width: 894px;
-    height: 1835px;
-    margin-left: 103px;
-    margin-right: 203px;
-}
-.header-main-div{
-    border: 1px solid black;
+.header-container {
     width: 100%;
     background-color: white;
     margin: auto;
-
 }
-.header-1 {
-    border: 1px solid black;
+
+.header-row {
     width: 1200px;
     margin: auto;
     display: flex;
@@ -40,15 +26,13 @@ body {
     background: #FCFAFA;
 }
 
-.header-div1 {
-    border: 1px solid black;
+.logo-pagination {
     width: 998px;
     display: flex;
     justify-content: space-between;
 }
 
-.header-col-1 {
-    border: 1px solid black;
+.logo-container {
     width: 112px;
     height: 36px;
     display: flex;
@@ -73,7 +57,7 @@ body {
     text-transform: uppercase;
 }
 
-.header-div2 {
+.submit-container {
     width: 130px;
     display: inline-flex;
     padding: 16px 35px;
@@ -97,23 +81,31 @@ body {
     background: #FEEEB4;
 }
 
+.assessment-container {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+}
 
-/* .Mcq-que{
+.assessment {
     display: flex;
-} */
+    justify-content: space-between;
+    width: 894px;
+    height: 600px;
+    margin-right: 203px;
+    margin-left: 103px;
+}
 
-.div2 {
-    width: 560px;
-    float: right;
+.Mcq-container {
     margin-top: 66px;
 }
 
-.div3 {
+.question-score {
     width: 560px;
     height: 19px;
 }
 
-.question1 {
+.question1-text {
     float: left;
     width: 400px;
     height: 19px;
@@ -137,13 +129,11 @@ body {
     line-height: 150%;
 }
 
-.div4 {
-    width: 480px;
+.mcq-que-div {
+    width: 560px;
     margin-top: 16px;
-    display: flex;
     padding: 40px;
     flex-direction: column;
-    align-items: flex-start;
     gap: 28px;
     border-radius: 12px;
     background: #FCFAFA;
@@ -274,53 +264,6 @@ body {
 }
 
 .que-div2 {
-    /* border: 1px solid black; */
     margin-top: 40px;
     width: 560px;
-    /* height: 321px; */
-}
-
-
-
-@media (max-width: 576px) {
-    .body {
-        margin: auto;
-    }
-
-    .header-1{
-        border: 1px solid black;
-        width: 100%;
-    }
-
-
-    /* .header-1 {
-        width: 576px;
-    }
-
-    .col2 {
-        width: 112px;
-        margin-top: 18px;
-        margin-bottom: 18px;
-        margin-left: 133px;
-        margin-right: 115px;
-    }
-
-    .timer-div {
-        width: 110px;
-        margin-top: 645px;
-    }
-
-    .timer-text {
-        display: none;
-    }
-
-    .col-2 {
-        width: 322px;
-        margin: auto;
-    }
-
-    .col3 {
-        display: none;
-    } */
-
 }

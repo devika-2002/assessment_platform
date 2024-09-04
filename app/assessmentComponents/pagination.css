@@ -1,22 +1,19 @@
-.col-2 {
-    /* border: 1px solid green; */
+
+.pagination-container {
     display: flex;
     align-items: center;
     gap: 16px;
-    /* height: 30px; */
-    /* width: 440px; */
     margin-top: 25px;
     margin-bottom: 17px;
 }
 
-.less-than-symbol {
+.previous-symbol {
     width: 28px;
     height: 28px;
     stroke-width: 1px;
 }
 
-
-.greater-than-symbol {
+.next-symbol {
     width: 28px;
     height: 28px;
     stroke-width: 1px;

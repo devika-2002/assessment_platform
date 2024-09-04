@@ -143,7 +143,7 @@ b {
   background-color: #FEEEB4;
 }
 
-.footer {
+.footer-container {
   border: 1px solid black;
   margin-top: 143px;
   padding-top: 46px;
@@ -237,7 +237,7 @@ h2 {
     margin-right: 20px;
   }
 
-  .footer {
+  .footer-container {
     border: 1px solid black;
     margin-top: 143px;
     padding-top: 46px;

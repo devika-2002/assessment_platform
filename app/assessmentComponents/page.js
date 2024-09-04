@@ -4,21 +4,17 @@ import "./assessment.css";
 import Assessment from './Assessment';
 import Footer from "../Components/Footer";
 import Filter from './Filter';
-import Timer from './Timer';
 
 function McqComponent() {
   return (
     <div className='mcq-div'>
       <Header />
-      {/* <div className='assessment-div1'>
-        <div className='assessment-div2'>
+      <div className='assessment-container'>
+        <div className='assessment'>
           <Filter />
           <Assessment />
-          <Assessment />
-          <Assessment />
-          <Assessment />
         </div>
-      </div> */}
+      </div>
       <Footer />
     </div>
   )

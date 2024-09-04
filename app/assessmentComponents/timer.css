@@ -1,13 +1,13 @@
-.timer-div {
-    /* border: 1px solid black; */
+
+.timer-container {
     width: 150px;
     height: 180px;
-    position: relative;
-    left: 487px;
-    top: -54px;
+    margin-left: 57px;
+    margin-right: 116px;
+    margin-top: -56px;
 }
 
-.time {
+.timer {
     display: flex;
     width: 150px;
     height: 149px;
