@@ -16,6 +16,7 @@ body {
     width: 100%;
     background-color: white;
     margin: auto;
+    border: 2px solid red;
 }
 
 .header-row {
@@ -27,6 +28,7 @@ body {
 }
 
 .logo-pagination {
+    border: 1px solid pink;
     width: 998px;
     display: flex;
     justify-content: space-between;
@@ -265,3 +267,41 @@ body {
     margin-top: 40px;
     width: 560px;
 }
+
+
+
+
+@media (max-width: 576px) {
+    .header-container{
+      width: 576px;
+      background-color: white;
+      margin: auto;
+    }
+    .header-row{
+      width: 576px;
+      background: #FCFAFA;
+      display: block;
+    }
+    
+    .logo-pagination{
+      display: block;
+      width: 576px;
+    }
+  
+    .logo-container{
+      width: 112px;
+      margin-left: 241.5px;
+      margin-right: 223.5px;
+    }
+    .assessment-container{
+      display: none;
+    }
+    .footer-container {
+      display: none;
+    }
+    .submit-container{
+        display: none;
+    }
+
+  }
+  

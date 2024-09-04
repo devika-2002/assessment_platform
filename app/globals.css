@@ -256,3 +256,60 @@ h2 {
   }
 
 }
+/* 
+
+@media (max-width: 576px) {
+  .header-container{
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+  }
+  .header-row{
+    border: 1px solid black;
+    width: 576px;
+    background: #FCFAFA;
+    display: block;
+  }
+
+  .logo-pagination{
+    border: 1px solid black;
+    display: block;
+  }
+
+  .logo-container{
+    width: 112px;
+    margin: auto;
+    margin-left: 241.5px;
+    margin-right: 223.5px;
+  }
+
+  .assessment-container{
+    display: none;
+  }
+  .footer-container {
+    display: none;
+  }
+} */
+
+
+
+
+/* mobile-only {
+  display: none;
+}
+@media (max-width: 576px) {
+  .mobile-only {
+      display: block;
+  }
+}
+.desktop-only {
+  display: block;
+}
+@media (max-width: 576px) {
+  .desktop-only {
+      display: none;
+  }
+}
+
+ */

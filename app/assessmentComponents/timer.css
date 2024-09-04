@@ -6,6 +6,11 @@
     margin-right: 116px;
     margin-top: -56px;
 }
+@media (max-width: 576px){
+    .timer-container{
+        display: block;
+    }
+}
 
 .timer {
     display: flex;
