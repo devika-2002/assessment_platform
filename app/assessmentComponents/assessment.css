@@ -83,7 +83,6 @@ body {
 
 .assessment-container {
     width: 1200px;
-    height: 600px;
     margin: auto;
 }
 
@@ -91,7 +90,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 894px;
-    height: 600px;
     margin-right: 203px;
     margin-left: 103px;
 }
