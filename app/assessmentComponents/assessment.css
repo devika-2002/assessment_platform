@@ -16,7 +16,6 @@ body {
     width: 100%;
     background-color: white;
     margin: auto;
-    border: 2px solid red;
 }
 
 .header-row {
@@ -99,7 +98,6 @@ body {
 .Mcq-container {
     margin-top: 66px;
 }
-
 .question-score {
     width: 560px;
     height: 19px;
@@ -268,40 +266,90 @@ body {
     width: 560px;
 }
 
+/* Destop */
 
-
-
-@media (max-width: 576px) {
-    .header-container{
-      width: 576px;
-      background-color: white;
-      margin: auto;
+/* mobile */
+@media (max-width: 576px){
+    body{
+        margin: auto;
     }
-    .header-row{
-      width: 576px;
-      background: #FCFAFA;
-      display: block;
+    * {
+        box-sizing: border-box;
     }
     
-    .logo-pagination{
-      display: block;
-      width: 576px;
+    .mcq-div{
+        border: 1px solid blue;
+        width: 100%;
     }
-  
-    .logo-container{
-      width: 112px;
-      margin-left: 241.5px;
-      margin-right: 223.5px;
+    .header-container{
+        width: 100%;
+        background-color: white;
+        margin: auto;
+    }
+    .header-row {
+        width: 100%;
+        /* display: block; */
+    }
+    .logo-pagination{
+        display: block;
+        width: 100%;
+    }
+    .mobile-header-logo{
+        border: 2px solid  skyblue;
+        width: 100%;
+
+    }
+    .logo-container {
+        width: 112px;
+        height: 36px;
+        margin: auto;
+        margin-top: 18px;
+        margin-bottom: 18px;
+       
+    }
+    .header-pagination{
+        width: 100%;
     }
     .assessment-container{
-      display: none;
+        width: 100%;
+        margin: auto;
     }
-    .footer-container {
-      display: none;
+    .assessment{
+        width: 100%;
+        margin: auto;
+        display: block;
     }
+    .timer-container{
+        width: 150px;
+        display: block;
+    }
+    .Mcq-container{
+        border: 1px solid red;
+    }
+    .question-score{
+        width: 320px;
+        height: 19px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mcq-que-div{
+        width: 320px;
+        padding: 40px 30px;
+    
+    }
+    .mcq-div1{
+        width: 260px;
+    }
+    .mcq-que1{
+        width: 260px;
+    }
+}
+
+/* Destop-view height */
+
+/* Mobile-view height */
+@media (max-width: 576px){
     .submit-container{
         display: none;
     }
-
-  }
-  
+}

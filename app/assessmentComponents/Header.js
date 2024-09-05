@@ -7,9 +7,11 @@ function Header() {
       <div className='header-row'>
         <div className='logo-pagination'>
 
-          <div className='logo-container'>
-            <img className="Logo-1" src="Logo Grp.svg" />
-            <div className="text-AQ-1">QA</div>
+          <div className='mobile-header-logo'>
+            <div className='logo-container'>
+              <img className="Logo-1" src="Logo Grp.svg" />
+              <div className="text-AQ-1">QA</div>
+            </div>
           </div>
 
           <div className='header-pagination'>
@@ -21,6 +23,7 @@ function Header() {
         </div>
       </div>
     </div>
+    
   )
 }
 

@@ -5,7 +5,22 @@ import Timer from "./Timer";
 function Filter() {
   return (
     <div>
-      <Timer />
+
+      <div className='mobile-only'>
+        <Timer />
+        <div className='filter-mobile'>
+          
+          <div className='mobile-filter-line'>
+            <div className='border-line1'></div>
+            <div className='border-line2'></div>
+            <div className='border-line3'></div>
+          </div>
+
+          <div className='mobile-filter-text'>Filters</div>
+        </div>
+
+      </div>
+
       <div className='filter-container'>
         <div className='filter-text'>Filters</div>
         <div className='quesrion-score'>

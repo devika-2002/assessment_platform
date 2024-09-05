@@ -6,11 +6,7 @@
     margin-right: 116px;
     margin-top: -56px;
 }
-@media (max-width: 576px){
-    .timer-container{
-        display: block;
-    }
-}
+
 
 .timer {
     display: flex;
@@ -119,4 +115,26 @@
     font-weight: 600;
     line-height: 160%;
     margin-top: 12px;
+}
+
+
+/* Destop-view height */
+
+/* Mobile-view */
+
+@media (max-width: 576px){
+    .timer-container{
+        margin-top: 23px;
+        margin-left: 0px;
+        border: 1px solid rebeccapurple; 
+    }
+    
+}
+
+
+/* Destop-view height */
+
+/* Mobile-view height */
+@media (max-width: 576px){
+
 }

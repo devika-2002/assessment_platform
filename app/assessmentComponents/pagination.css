@@ -6,14 +6,6 @@
     margin-top: 25px;
     margin-bottom: 17px;
 }
-@media (max-width: 576px) {
-    .pagination-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 26px;
-    }
-}
 .previous-symbol {
     width: 28px;
     height: 28px;
@@ -50,36 +42,60 @@
     border-radius: 30px;
     border: 2px solid #E0DFDA;
 }
-.dote-space{
-    display: none;
-}
 
+/* Destop-view*/
 
-@media (max-width: 576px) {
+/* Mobile-view */
+@media (max-width: 576px){
+    .pagination-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 26px;
+    }
     .num1{
-        background: white;
+        background: none;
         color: black;
     }
-    .dote-space{
-        display: block;
-    }    
     .num5{
-        background: black;
+        background-color: black;
         color: white;
     }
-    .num2{
+    .Mcq-container{
+        border: 1px solid blue;
+        width: 320px;
+        margin: auto;
+
+    }
+    .dote-space1{
+        display: block;
+    }
+   
+}
+
+/* Destop-view height */
+.dote-space1{
+    display: none;
+}
+/* Mobile-view height */
+@media (max-width: 576px){
+    .num2 {
         display: none;
     }
-    .num3{
+    .num3 {
         display: none;
     }
-    .num4{
+    .num4 {
         display: none;
     }
-    .num6{
+    .num6 {
         display: none;
     }
-    .num7{
+    .num7 {
         display: none;
     }
 }
