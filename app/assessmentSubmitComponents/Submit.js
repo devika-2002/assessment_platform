@@ -1,16 +1,25 @@
 import React from 'react'
-import "./submit.css"
 
 function Submit() {
   return (
-    <div >
-      <div className='logo-group'>
-        <img className='logo-img' src='Group 32.svg'></img>
+    <div className='submit-container'>
+
+      <div className='logo-successfull'>
+        <img className='submission-logo' src='Group 32.svg' />
       </div>
-      <div className='sub-div1'></div>
-      <div className='sub-div2'></div>
+
+      <div className='submit-text-container'>
+        <div className='sub-text-col1'>Successfully Sumbitted</div>
+        <div className='sub-text-col2'>Thank you for completing the test! </div>
+        <div className='sub-text-col3'>Review your results and keep practicing. Great job and keep up the hard work!</div>
+      </div>
+
+      <div className='check-score-btn'>
+        <button className='submit-butn'>Check Your Score</button>
+
+      </div>
     </div>
   )
 }
 
-export default Submit;
+export default Submit

@@ -15,7 +15,9 @@ function Header() {
           <Pagination />
         </div>
         <div className='submit-container'>
-          <button className='sub-button'>Submit</button>
+          <a href='./assessmentSubmitComponents'>
+            <button className='sub-button'>Submit</button>
+          </a>
         </div>
       </div>
     </div>
