@@ -94,13 +94,11 @@ body {
 }
 
 .Mcq-container {
-    border: 2px solid skyblue;
     margin-top: 66px;
     width: 560px;
 }
 
 .question-score {
-    width: 560px;
     height: 19px;
 }
 
@@ -129,7 +127,6 @@ body {
 }
 
 .mcq-que-div {
-    width: 560px;
     margin-top: 16px;
     padding: 40px;
     flex-direction: column;
@@ -324,7 +321,7 @@ body {
 
     .Mcq-container {
         margin-top: 0;
-
+        width: 100%;
     }
 
     .question-score {

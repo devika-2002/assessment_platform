@@ -1,5 +1,4 @@
 .timer-filter-container{
-    border: 2px solid red;
     width: 284px;
 }
 .timer-container {
@@ -120,6 +119,10 @@
 }
 
 @media (max-width: 576px) {
+    .timer-filter-container{
+        width: 100%;
+    }
+
     .timer-container {
         margin-left: 0;
         margin-right: 0;
