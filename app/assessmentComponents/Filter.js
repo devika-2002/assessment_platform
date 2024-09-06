@@ -6,9 +6,9 @@ function Filter() {
   return (
     <div>
 
-      <div className='mobile-only'>
+      <div className='timer-filter-text'>
         <Timer />
-        <div className='filter-mobile'>
+        <div className='mobile-only'>
           
           <div className='mobile-filter-line'>
             <div className='border-line1'></div>

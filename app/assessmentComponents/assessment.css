@@ -12,13 +12,13 @@ body {
     margin: auto;
 }
 
-.header-container {
+.header-row {
     width: 100%;
     background-color: white;
     margin: auto;
 }
 
-.header-row {
+.header-container{
     width: 1200px;
     margin: auto;
     display: flex;
@@ -27,7 +27,6 @@ body {
 }
 
 .logo-pagination {
-    border: 1px solid pink;
     width: 998px;
     display: flex;
     justify-content: space-between;
@@ -278,26 +277,24 @@ body {
     }
     
     .mcq-div{
-        border: 1px solid blue;
         width: 100%;
     }
-    .header-container{
+    .header-row{
         width: 100%;
         background-color: white;
         margin: auto;
     }
-    .header-row {
+    .header-container {
         width: 100%;
-        /* display: block; */
+        display: block;
     }
     .logo-pagination{
         display: block;
         width: 100%;
     }
     .mobile-header-logo{
-        border: 2px solid  skyblue;
-        width: 100%;
-
+        border: 2px solid skyblue;
+        padding: 18px;
     }
     .logo-container {
         width: 112px;
@@ -308,7 +305,12 @@ body {
        
     }
     .header-pagination{
-        width: 100%;
+        padding: 20px 19px 24px 19px;
+    }
+    .submit-container{
+        position: fixed;
+        bottom: 20px;
+        right: 19px;
     }
     .assessment-container{
         width: 100%;
@@ -320,28 +322,28 @@ body {
         display: block;
     }
     .timer-container{
-        width: 150px;
         display: block;
     }
     .Mcq-container{
-        border: 1px solid red;
+        margin-top: 0;
+
     }
     .question-score{
-        width: 320px;
+        width: 100%;
         height: 19px;
         display: flex;
         justify-content: space-between;
     }
     .mcq-que-div{
-        width: 320px;
+        width: 100%;
         padding: 40px 30px;
     
     }
     .mcq-div1{
-        width: 260px;
+        width: 100%;
     }
     .mcq-que1{
-        width: 260px;
+        width: 100%;
     }
 }
 
@@ -349,7 +351,7 @@ body {
 
 /* Mobile-view height */
 @media (max-width: 576px){
-    .submit-container{
+    /* .submit-container{
         display: none;
-    }
+    } */
 }

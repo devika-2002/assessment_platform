@@ -3,8 +3,8 @@ import Pagination from './Pagination';
 
 function Header() {
   return (
-    <div className='header-container'>
-      <div className='header-row'>
+    <div className='header-row'>
+      <div className='header-container'>
         <div className='logo-pagination'>
 
           <div className='mobile-header-logo'>

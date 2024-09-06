@@ -124,15 +124,15 @@
 
 @media (max-width: 576px){
     .timer-container{
-        margin-top: 23px;
-        margin-left: 0px;
-        border: 1px solid rebeccapurple; 
+        margin-left: 0;
+        margin-right: 0; 
+        margin-bottom: 58px; 
+        margin-top: 0;      
     }
     
 }
 
 
-/* Destop-view height */
 
 /* Mobile-view height */
 @media (max-width: 576px){

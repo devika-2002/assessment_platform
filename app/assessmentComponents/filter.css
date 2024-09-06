@@ -151,7 +151,6 @@
     line-height: 120%;
     margin-top: 6px;
 }
-
 /* Destop-view height */
 .mobile-filter-text{
     display: none;
@@ -161,13 +160,14 @@
     .filter-container{
         display: none;
     }
-    .mobile-only{
-        border: 1px solid red;
-        width: 320px;
+    .timer-filter-text{
+        width: 100%;
         margin: auto;
-       
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
     }
-    .filter-mobile{
+    .mobile-only{
         border: 1px solid black;
         width: 104px;
         height: 39px;
