@@ -1,4 +1,3 @@
-
 body {
     margin: auto;
 }
@@ -18,8 +17,9 @@ body {
     margin: auto;
 }
 
-.header-container{
+.header-container {
     width: 1200px;
+    height: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -27,17 +27,16 @@ body {
 }
 
 .logo-pagination {
-    width: 998px;
+    width: 997px;
     display: flex;
     justify-content: space-between;
 }
 
 .logo-container {
     width: 112px;
-    height: 36px;
+    height: 72px;
     display: flex;
-    margin-top: 18px;
-    margin-bottom: 18px;
+    align-items: center;
 }
 
 .Logo-1 {
@@ -95,8 +94,11 @@ body {
 }
 
 .Mcq-container {
+    border: 2px solid skyblue;
     margin-top: 66px;
+    width: 560px;
 }
+
 .question-score {
     width: 560px;
     height: 19px;
@@ -265,93 +267,84 @@ body {
     width: 560px;
 }
 
-/* Destop */
-
-/* mobile */
-@media (max-width: 576px){
-    body{
+@media (max-width: 576px) {
+    body {
         margin: auto;
     }
+
     * {
         box-sizing: border-box;
     }
-    
-    .mcq-div{
+
+    .mcq-div {
         width: 100%;
     }
-    .header-row{
+
+    .header-row {
         width: 100%;
         background-color: white;
         margin: auto;
     }
+
     .header-container {
         width: 100%;
         display: block;
     }
-    .logo-pagination{
+
+    .logo-pagination {
         display: block;
         width: 100%;
-    }
-    .mobile-header-logo{
         border: 2px solid skyblue;
-        padding: 18px;
     }
+
     .logo-container {
-        width: 112px;
-        height: 36px;
         margin: auto;
-        margin-top: 18px;
-        margin-bottom: 18px;
-       
     }
-    .header-pagination{
-        padding: 20px 19px 24px 19px;
-    }
-    .submit-container{
+
+    .submit-container {
         position: fixed;
         bottom: 20px;
         right: 19px;
     }
-    .assessment-container{
+
+    .assessment-container {
         width: 100%;
         margin: auto;
     }
-    .assessment{
+
+    .assessment {
         width: 100%;
         margin: auto;
         display: block;
     }
-    .timer-container{
+
+    .timer-container {
         display: block;
     }
-    .Mcq-container{
+
+    .Mcq-container {
         margin-top: 0;
 
     }
-    .question-score{
+
+    .question-score {
         width: 100%;
         height: 19px;
         display: flex;
         justify-content: space-between;
     }
-    .mcq-que-div{
+
+    .mcq-que-div {
         width: 100%;
         padding: 40px 30px;
-    
+
     }
-    .mcq-div1{
+
+    .mcq-div1 {
         width: 100%;
     }
-    .mcq-que1{
+
+    .mcq-que1 {
         width: 100%;
     }
-}
-
-/* Destop-view height */
-
-/* Mobile-view height */
-@media (max-width: 576px){
-    /* .submit-container{
-        display: none;
-    } */
 }

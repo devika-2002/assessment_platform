@@ -1,11 +1,10 @@
-
 .pagination-container {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-top: 25px;
-    margin-bottom: 17px;
 }
+
 .previous-symbol {
     width: 28px;
     height: 28px;
@@ -21,16 +20,14 @@
 .num1 {
     display: flex;
     width: 30px;
-    /* padding: 3px; */
-    padding: 7px 10px 6px 10px;
-    color: var(--Light-a, #FCFAFA);
+    padding: 6px 10px;
+    color: #FCFAFA;
     text-align: center;
-    /* tx small */
     font-family: "Inria Sans";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 16.8px */
+    line-height: 120%;
 
 
     justify-content: center;
@@ -42,17 +39,15 @@
     color: white;
 
 }
+
 .num {
     width: 30px;
-    /* padding: 3px; */
-    padding: 7px 10px 6px 10px;
-    /* flex-direction: column; */
+    padding: 6px 10px;
     text-align: center;
-    /* tx small */
     font-family: "Inria Sans";
     font-size: 14px;
     font-weight: 400;
-    line-height: 120%; /* 16.8px */
+    line-height: 120%;
 
     display: flex;
     justify-content: center;
@@ -61,61 +56,60 @@
     border-radius: 30px;
     border: 2px solid #E0DFDA;
 }
-.dote-space1{
+
+.dote-space1 {
     display: none;
 }
 
-/* Destop-view*/
-
-/* Mobile-view */
-@media (max-width: 576px){
+@media (max-width: 576px) {
     .pagination-container {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 74px;
         margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
         gap: 26px;
     }
-    .num1{
+
+    .num1 {
         background: none;
         color: black;
     }
-    .num5{
+
+    .num5 {
         background-color: black;
         color: white;
 
     }
-    .Mcq-container{
+
+    .Mcq-container {
         width: 100%;
         margin: auto;
         padding: 20px;
 
     }
-    .dote-space1{
+
+    .dote-space1 {
         display: block;
     }
-   
+
 }
 
-/* Destop-view height */
-
-/* Mobile-view height */
-@media (max-width: 576px){
+@media (max-width: 576px) {
     .num2 {
         display: none;
     }
+
     .num3 {
         display: none;
     }
+
     .num4 {
         display: none;
     }
+
     .num6 {
         display: none;
     }
+
     .num7 {
         display: none;
     }

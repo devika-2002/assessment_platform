@@ -1,10 +1,12 @@
-
+.timer-filter-container{
+    border: 2px solid red;
+    width: 284px;
+}
 .timer-container {
     width: 150px;
     height: 180px;
-    margin-left: 57px;
-    margin-right: 116px;
-    margin-top: -56px;
+    margin: auto;
+    margin-top: -56px
 }
 
 
@@ -117,24 +119,12 @@
     margin-top: 12px;
 }
 
-
-/* Destop-view height */
-
-/* Mobile-view */
-
-@media (max-width: 576px){
-    .timer-container{
+@media (max-width: 576px) {
+    .timer-container {
         margin-left: 0;
-        margin-right: 0; 
-        margin-bottom: 58px; 
-        margin-top: 0;      
+        margin-right: 0;
+        margin-bottom: 58px;
+        margin-top: 0;
     }
-    
-}
-
-
-
-/* Mobile-view height */
-@media (max-width: 576px){
 
 }

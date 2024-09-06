@@ -1,4 +1,3 @@
-
 .filter-container {
     border: 1px solid black;
     width: 284px;
@@ -9,6 +8,7 @@
     background: #F9F7F2;
     margin-top: 20px;
 }
+
 .filter-text {
     width: 197px;
     margin-top: 36px;
@@ -127,7 +127,7 @@
     border-radius: 54px;
     border: 1px solid #F4D150;
     background: #FEEEB4;
-    color: var(--Dark-a, #1F1E1C);
+    color: #1F1E1C;
     font-family: "Inria Sans";
     font-size: 14px;
     font-weight: 400;
@@ -151,23 +151,25 @@
     line-height: 120%;
     margin-top: 6px;
 }
-/* Destop-view height */
-.mobile-filter-text{
+
+.mobile-filter-text {
     display: none;
 }
-/* Mobile-view height */
-@media (max-width: 576px){
-    .filter-container{
+
+@media (max-width: 576px) {
+    .filter-container {
         display: none;
     }
-    .timer-filter-text{
+
+    .timer-filter-text {
         width: 100%;
         margin: auto;
         padding: 20px;
         display: flex;
         justify-content: space-between;
     }
-    .mobile-only{
+
+    .mobile-only {
         border: 1px solid black;
         width: 104px;
         height: 39px;
@@ -179,12 +181,14 @@
         border: 2px solid #E0DFDA;
         background: #FCFAFA;
     }
-    .mobile-filter-line{
+
+    .mobile-filter-line {
         width: 17px;
         height: 19px;
         margin: auto;
     }
-    .border-line1{
+
+    .border-line1 {
         width: 16px;
         border: 1px solid #777671;
         margin: auto;
@@ -192,21 +196,24 @@
         margin-left: 0.5px;
         margin-right: 0.5px;
     }
-    .border-line2{
+
+    .border-line2 {
         width: 13px;
         margin-top: 5px;
         border: 1px solid #777671;
         margin-left: 2px;
         margin-right: 2px;
     }
-    .border-line3{
+
+    .border-line3 {
         width: 10px;
         margin-top: 5px;
         border: 1px solid #777671;
         margin-left: 3.5px;
         margin-right: 3.5px;
     }
-    .mobile-filter-text{
+
+    .mobile-filter-text {
         width: 55px;
         height: 19px;
         margin: auto;
@@ -216,7 +223,8 @@
         font-weight: 700;
         text-transform: uppercase
     }
-    .mobile-filter-text{
+
+    .mobile-filter-text {
         display: block;
     }
 
