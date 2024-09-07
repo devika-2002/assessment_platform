@@ -19,15 +19,13 @@
 
 .num1 {
     width: 30px;
-    padding: 6px 10px;
+    height: 30px;
     color: #FCFAFA;
     text-align: center;
     font-family: "Inria Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 120%;
-    gap: 16px;
+    line-height: 26px;
     border-radius: 30px;
     border: 2px solid #E0DFDA;
     background-color: black;
@@ -37,13 +35,12 @@
 
 .num {
     width: 30px;
-    padding: 6px 10px;
+    height: 30px;
     text-align: center;
     font-family: "Inria Sans";
     font-size: 14px;
     font-weight: 400;
-    line-height: 120%;
-    gap: 16px;
+    line-height: 26px;
     border-radius: 30px;
     border: 2px solid #E0DFDA;
 }
@@ -54,6 +51,7 @@
 
 @media (max-width: 576px) {
     .pagination-container {
+        border-top: 2px solid #8F887C;
         width: 100%;
         height: 74px;
         margin: auto;

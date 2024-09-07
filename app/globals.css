@@ -45,13 +45,11 @@ body {
   padding: 55px 0px 19px;
   font-size: 24px;
   font-weight: 600;
-  line-height: 120%;
 }
 
 .box-page {
   border: 1px solid white;
   width: 705px;
-  margin-bottom: 143px;
   margin: auto;
   background-color: white;
 }
@@ -59,26 +57,21 @@ body {
 .text-1 {
   color: #4C4B49;
   font-family: "Inter";
-  margin-left: 117px;
-  margin-right: 116px;
-  margin-top: 40px;
+  margin: 40px 117px 0px 116px;
   font-size: 18px;
   font-weight: 700;
 }
 
 .text-2 {
   color: #4C4B49;
-  margin-left: 117px;
-  margin-right: 116px;
   font-size: 14px;
   font-weight: 400;
-  line-height: 150%;
-  margin-top: 16px;
+  line-height: 21px;
+  margin: 16px 117px 0px 116px;
 }
 
 .text-3 {
-  margin-left: 117px;
-  margin-right: 116px;
+  margin: 0px 117px 0px 116px;
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
@@ -86,9 +79,7 @@ body {
 }
 
 .text-4 {
-  margin-top: 8px;
-  margin-left: 117px;
-  margin-right: 116px;
+  margin: 8px 117px 0px 116px;
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
@@ -99,11 +90,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
-  margin-top: 8px;
-  margin-left: 117px;
-  margin-right: 116px;
+  margin: 8px 117px 0px 116px;
   color: #4C4B49;
-
 }
 
 b {
@@ -112,11 +100,9 @@ b {
 }
 
 .border-line {
-  border: 1px solid black;
+  border-top: 1px solid black;
   width: 620px;
-  margin-top: 40px;
-  margin-left: 43px;
-  margin-right: 42px;
+  margin: 40px 43px 0px 42px;
 }
 
 .button-box {
@@ -124,15 +110,12 @@ b {
   background-color: #FEEEB4;
   width: 159px;
   height: 54px;
+  margin: auto;
+  text-align: center;
   border-radius: 4px;
-  box-shadow: 0px 4px 7px 0px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
   margin-top: 39px;
   margin-bottom: 49px;
-  margin-left: 273px;
-  margin-right: 273px;
 }
 
 .button-box1 {
@@ -141,13 +124,13 @@ b {
   font-family: "Inter";
   border: none;
   background-color: #FEEEB4;
+  line-height: 52px;
 }
 
 .footer-container {
   border: 1px solid black;
   margin-top: 143px;
-  padding-top: 46px;
-  padding-bottom: 68px;
+  padding: 46px 0px 68px 0px;
   background-color: #4c4b49;
   color: white;
 }
@@ -176,140 +159,43 @@ h2 {
     margin: auto;
     margin-left: 80px;
     margin-right: 81px;
-    margin-top: 39px;
     margin-bottom: 56px;
   }
 
   .text-1 {
-    margin-top: 40px;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    width: 280px;
     text-align: center;
+    margin: auto;
+    margin-top: 40px;
   }
 
   .text-2 {
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 150%;
     margin-top: 15px;
   }
 
   .text-3 {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    color: #4C4B49;
+    margin: 0px 20px 0px 20px;
   }
 
   .text-4 {
-    margin-top: 8px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+    margin: 8px 20px 0px 20px;
   }
 
   .text-5 {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    margin-top: 8px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 8px 20px 0px 20px;
   }
 
   .border-line {
-    border: 1px solid black;
     width: 280px;
+    margin: auto;
     margin-top: 53px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .footer-container {
-    border: 1px solid black;
-    margin-top: 143px;
-    padding-top: 46px;
-    padding-bottom: 68px;
-    background-color: #4c4b49;
-    color: white;
-  }
-
-  h2 {
-    text-align: center;
   }
 
   .footer-text {
-    text-align: center;
     font-size: 14px;
   }
 
 }
-/* 
-
-@media (max-width: 576px) {
-  .header-container{
-    border: 1px solid black;
-    width: 100%;
-    background-color: white;
-    margin: auto;
-  }
-  .header-row{
-    border: 1px solid black;
-    width: 576px;
-    background: #FCFAFA;
-    display: block;
-  }
-
-  .logo-pagination{
-    border: 1px solid black;
-    display: block;
-  }
-
-  .logo-container{
-    width: 112px;
-    margin: auto;
-    margin-left: 241.5px;
-    margin-right: 223.5px;
-  }
-
-  .assessment-container{
-    display: none;
-  }
-  .footer-container {
-    display: none;
-  }
-} */
-
-
-
-
-/* mobile-only {
-  display: none;
-}
-@media (max-width: 576px) {
-  .mobile-only {
-      display: block;
-  }
-}
-.desktop-only {
-  display: block;
-}
-@media (max-width: 576px) {
-  .desktop-only {
-      display: none;
-  }
-}
-
- */

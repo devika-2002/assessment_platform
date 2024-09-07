@@ -1,11 +1,13 @@
-.timer-filter-container{
+.timer-filter-container {
     width: 284px;
 }
+
 .timer-container {
     width: 150px;
     height: 180px;
     margin: auto;
-    margin-top: -56px
+    position: relative;
+    top: -56px
 }
 
 
@@ -119,15 +121,21 @@
 }
 
 @media (max-width: 576px) {
-    .timer-filter-container{
+    .timer-filter-container {
         width: 100%;
+        padding: 20px 20px 0px;
     }
 
     .timer-container {
+        position: unset;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 58px;
         margin-top: 0;
+    }
+
+    .timer-text {
+        display: none;
     }
 
 }

@@ -23,7 +23,6 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    background: #FCFAFA;
 }
 
 .logo-pagination {
@@ -37,6 +36,7 @@ body {
     height: 72px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .Logo-1 {
@@ -47,7 +47,6 @@ body {
     width: 48px;
     height: 29px;
     margin-top: 7px;
-    margin-left: 8px;
     color: #8F887C;
     font-family: "Josefin Sans";
     font-size: 28.736px;
@@ -265,24 +264,6 @@ body {
 }
 
 @media (max-width: 576px) {
-    body {
-        margin: auto;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-    .mcq-div {
-        width: 100%;
-    }
-
-    .header-row {
-        width: 100%;
-        background-color: white;
-        margin: auto;
-    }
-
     .header-container {
         width: 100%;
         display: block;
@@ -291,7 +272,6 @@ body {
     .logo-pagination {
         display: block;
         width: 100%;
-        border: 2px solid skyblue;
     }
 
     .logo-container {
@@ -300,7 +280,7 @@ body {
 
     .submit-container {
         position: fixed;
-        bottom: 20px;
+        bottom: 100px;
         right: 19px;
     }
 
@@ -322,7 +302,9 @@ body {
     .Mcq-container {
         margin-top: 0;
         width: 100%;
+        padding: 20px 20px 0px;
     }
+
 
     .question-score {
         width: 100%;
@@ -334,7 +316,6 @@ body {
     .mcq-que-div {
         width: 100%;
         padding: 40px 30px;
-
     }
 
     .mcq-div1 {
