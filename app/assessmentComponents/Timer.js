@@ -13,8 +13,8 @@ function timer() {
             </div>
             <div className='timer-col2'>:</div>
             <div>
-            <div className='timer-col3'>20</div>
-            <div className='timer-text2'>Sec</div>
+              <div className='timer-col3'>20</div>
+              <div className='timer-text2'>Sec</div>
             </div>
           </div>
         </div>

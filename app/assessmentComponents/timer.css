@@ -7,10 +7,8 @@
     height: 180px;
     margin: auto;
     position: relative;
-    top: -56px
-
+    top: -40px
 }
-
 
 .timer {
     width: 141px;
@@ -31,17 +29,20 @@
     background: #F9F7F2;
     display: flex;
 }
-.timer-div1{
+
+.timer-div1 {
     margin: auto;
     display: flex;
 }
-.timer-col1{
+
+.timer-col1 {
     color: #E68086;
     font-family: "Inter";
     font-size: 24px;
     font-weight: 600;
 }
-.timer-text1{
+
+.timer-text1 {
     margin-top: 6px;
     color: #1F1E1C;
     font-family: "Inter";
@@ -49,19 +50,22 @@
     font-weight: 500;
 
 }
-.timer-col2{
+
+.timer-col2 {
     margin: 0px 5px 0px 6px;
     font-family: "Inter";
     font-size: 20px;
     font-weight: 500;
 }
-.timer-col3{
+
+.timer-col3 {
     color: #E68086;
     font-family: "Inter";
     font-size: 23px;
     font-weight: 600;
 }
-.timer-text2{
+
+.timer-text2 {
     margin-top: 6px;
     color: #1F1E1C;
     font-family: "Inter";
@@ -96,31 +100,38 @@
         margin-bottom: 58px;
         margin-top: 0;
     }
-    .timer{
+
+    .timer {
         width: 100%;
         height: 100%;
         border-radius: 52px;
     }
-    .inside-div1{
+
+    .inside-div1 {
         width: 80px;
         height: 80px;
         border-radius: 41px;
     }
-    .timer-col1{
+
+    .timer-col1 {
         font-size: 18px;
     }
-    .timer-text1{
+
+    .timer-text1 {
         font-size: 12px;
         margin-top: 0px;
     }
-    .timer-col2{
+
+    .timer-col2 {
         font-size: 18px;
         margin: 0px 2px 0px 2px;
     }
-    .timer-col3{
+
+    .timer-col3 {
         font-size: 18px;
     }
-    .timer-text2{
+
+    .timer-text2 {
         font-size: 12px;
         margin-top: 0px;
     }
