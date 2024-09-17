@@ -56,27 +56,32 @@ body {
 }
 
 .submit-container {
+    border: 1px solid black;
     width: 130px;
     display: inline-flex;
-    padding: 16px 35px;
-    justify-content: center;
-    align-items: center;
     border-radius: 4px;
     border: 2px solid #F4D150;
-    background: #FEEEB4;
     box-shadow: 0px 4px 7px 0px #B3AE9C;
-    gap: 10px;
     margin-top: 9px;
     margin-bottom: 9px;
 }
+.anchor-tag1{
+    padding: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    margin: auto;
+    background: #FEEEB4;
 
+}
 .sub-button {
+    border: 1px solid red;
     border: none;
     color: #1F1E1C;
     font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
     background: #FEEEB4;
+    cursor: pointer;
 }
 
 .assessment-container {
@@ -302,7 +307,7 @@ body {
     .Mcq-container {
         margin-top: 0;
         width: 100%;
-        padding: 20px 20px 0px;
+        padding: 0px 20px 0px;
     }
 
 

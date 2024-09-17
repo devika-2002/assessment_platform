@@ -15,11 +15,11 @@ function Header() {
           <Pagination />
         </div>
 
-        <a href='./assessmentSubmitComponents'>
-          <div className='submit-container'>
+        <div className='submit-container'>
+          <a className='anchor-tag1' href='./assessmentSubmitComponents'>
             <button className='sub-button'>Submit</button>
-          </div>
-        </a>
+          </a>
+        </div>
 
       </div>
     </div>

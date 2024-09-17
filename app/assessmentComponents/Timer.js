@@ -6,15 +6,15 @@ function timer() {
     <div className='timer-container'>
       <div className='timer'>
         <div className='inside-div1'>
-          <div className='inside-div2'>
-            <div className='col-div1'>
-              <div className='col-num1'>50</div>
-              <div className='col-min'>min</div>
+          <div className='timer-div1'>
+            <div>
+              <div className='timer-col1'>50</div>
+              <div className='timer-text1'>min</div>
             </div>
-            <div className='semicolon'>:</div>
-            <div className='col-div2'>
-              <div className='col-num2'>20</div>
-              <div className='col-sec'>Sec</div>
+            <div className='timer-col2'>:</div>
+            <div>
+            <div className='timer-col3'>20</div>
+            <div className='timer-text2'>Sec</div>
             </div>
           </div>
         </div>
