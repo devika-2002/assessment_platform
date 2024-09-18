@@ -13,7 +13,7 @@ function Assessment() {
 
           <div className='mcq-option'>
 
-            <div className='rediodiv'>
+            <div>
               <input type='radio' name='committee' value="Tarapore Committee" />
               <label>Tarapore Committee</label>
             </div>
