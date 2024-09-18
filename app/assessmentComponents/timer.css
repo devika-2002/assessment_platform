@@ -1,11 +1,12 @@
 .timer-filter-container {
     width: 284px;
+    position: relative;
+    top: -40px
+
 }
 
 .timer-container {
     margin: auto;
-    position: relative;
-    top: -40px
 }
 
 .timer {

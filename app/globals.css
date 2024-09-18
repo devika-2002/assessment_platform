@@ -160,7 +160,6 @@ h2 {
   text-align: center;
 }
 
-
 @media (max-width: 576px) {
   .body {
     margin: auto;
@@ -195,7 +194,7 @@ h2 {
     margin-left: 0px;
     margin-right: 0px;
   }
-  
+
   .button-box {
     margin: auto;
     margin-left: 80px;
