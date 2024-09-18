@@ -2,7 +2,7 @@
     border-radius: 12px;
     border: 1px dashed #d1c9a0;
     background: #F9F7F2;
-    margin-top: -30px;
+    margin-top: -15px;
 }
 
 .filter-text {
@@ -17,7 +17,9 @@
 
 .quesrion-score {
     width: 196px;
-    margin: 36px 38px 0px 50px;
+    margin-left: 38px;
+    margin-top: 36px;
+    margin-right: 49px;
 }
 
 .question-score-text {
@@ -65,7 +67,10 @@
 .questions-attempted-div {
     width: 206px;
     height: 99px;
-    margin: 48px 38px 40px 60px;
+    margin-left: 38px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+    margin-right: 40px;
 }
 
 .questions-attempted-text {

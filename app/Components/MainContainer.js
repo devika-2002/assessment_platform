@@ -5,7 +5,6 @@ function MainContenr() {
     <>
       <div className='text-mcq'>MCQ Test Portal</div>
       <div className='box-page'>
-        <div className='text-box'>
 
           <div className='text-1'>Instructions</div>
           <div className='text-2'>Please read the instructions carefully before you begin:</div>
@@ -25,8 +24,7 @@ function MainContenr() {
             <div>Click 'Lets Start' to begin the test. </div>
             <b>Good luck!</b>
           </div>
-
-        </div>
+          
         <div className='border-line'></div>
         <div className='button-box'>
           <a href='./assessmentComponents'>

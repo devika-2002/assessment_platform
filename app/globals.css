@@ -54,57 +54,62 @@ body {
   background-color: white;
 }
 
-.text-box {
+.text-1 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4C4B49;
+  text-align: center;
+  font-family: "Inter";
+  margin-left: 117px;
+  margin-right: 116px;
+
+}
+
+.text-2 {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-left: 117px;
+  margin-right: 116px;
+  line-height: 150%;
+}
+
+.text-3 {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #4C4B49;
   margin-left: 117px;
   margin-right: 116px;
 }
 
-.text-1 {
-  color: #4C4B49;
-  font-family: "Inter";
-  margin-top: 40px;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.text-2 {
-  color: #4C4B49;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
-  margin-top: 16px;
-}
-
-.text-3 {
-  width: 100%;
+.text-4 {
   font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
+  margin-top: 8px;
+  margin-left: 117px;
+  margin-right: 116px;
+  line-height: 150%;
+  color: #4C4B49;
+}
+
+.text-5 {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-left: 117px;
+  margin-right: 116px;
   line-height: 150%;
   color: #4C4B49;
 }
 
 ul {
   padding-left: 23px;
-}
-
-.text-3-text {
-  font-size: 13px;
-}
-
-.text-4 {
-  margin-top: 8px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  color: #4C4B49;
-}
-
-.text-5 {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  color: #4C4B49;
 }
 
 b {
@@ -167,6 +172,30 @@ h2 {
     margin: auto;
   }
 
+  .text-2 {
+    padding: 0px 20px 0px 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .text-3 {
+    padding: 0px 20px 0px 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .text-4 {
+    padding: 0px 20px 0px 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .text-5 {
+    padding: 0px 20px 0px 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
   .button-box {
     margin: auto;
     margin-left: 80px;
@@ -174,36 +203,11 @@ h2 {
     margin-bottom: 56px;
   }
 
-  .text-1 {
-    width: 280px;
-    text-align: center;
-    margin: auto;
-    margin-top: 40px;
-  }
-
-  .text-2 {
-    margin-left: 20px;
-    margin-right: 20px;
-    line-height: 150%;
-    margin-top: 15px;
-  }
-
-  .text-3 {
-    margin: 0px 20px 0px 20px;
-  }
-
-  .text-4 {
-    margin: 8px 20px 0px 20px;
-  }
-
-  .text-5 {
-    margin: 8px 20px 0px 20px;
-  }
-
   .border-line {
     width: 280px;
     margin: auto;
     margin-top: 53px;
+    margin-bottom: 39px;
   }
 
   .footer-text {
