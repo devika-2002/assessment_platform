@@ -12,22 +12,27 @@ function Assessment() {
           <div className='mcq-que1'>Which of the following committees recommended inclusion of fundamental duties ?</div>
 
           <div className='mcq-option'>
-            <div className='option1'>
-              <div class="circle1"></div>
-              <div className='text-option-1'>Tarapore Committee</div>
+
+            <div>
+              <input type='radio' name='committee' value="Tarapore Committee" />
+              <label>Tarapore Committee</label>
             </div>
-            <div className='option2'>
-              <div class="circle2"></div>
-              <div className='text-option-2'>Radha Krishnan Committee </div>
+
+            <div className='opti-2'>
+              <input type='radio' name='committee' value="Radha Krishnan Committee" />
+              <label>Radha Krishnan Committee</label>
             </div>
-            <div className='option3'>
-              <div class="circle3"></div>
-              <div className='text-option-3'>Swaran Singh Committee </div>
+
+            <div className='opti-2'>
+              <input type='radio' name='committee' value="Swaran Singh Committee" />
+              <label>Swaran Singh Committee</label>
             </div>
-            <div className='option4'>
-              <div class="circle4"></div>
-              <div className='text-option-4'>Balwantrai Mehta Committee </div>
+
+            <div className='opti-2'>
+              <input type='radio' name='committee' value="Balwantrai Mehta Committee" />
+              <label>Balwantrai Mehta Committee</label>
             </div>
+
           </div>
         </div>
       </div>
