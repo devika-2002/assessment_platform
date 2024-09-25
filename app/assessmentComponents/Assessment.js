@@ -13,23 +13,31 @@ function Assessment() {
 
           <div className='mcq-option'>
 
-            <div>
-              <input type='radio' name='committee' value="Tarapore Committee" />
+            <div className='opti-1'>
+              <div className='input-but'>
+                <input type='radio' name='committee' value="Tarapore Committee" />
+              </div>
               <label>Tarapore Committee</label>
             </div>
 
             <div className='opti-2'>
-              <input type='radio' name='committee' value="Radha Krishnan Committee" />
+              <div className='input-but'>
+                <input type='radio' name='committee' value="Radha Krishnan Committee" />
+              </div>
               <label>Radha Krishnan Committee</label>
             </div>
 
             <div className='opti-2'>
-              <input type='radio' name='committee' value="Swaran Singh Committee" />
+              <div className='input-but'>
+                <input type='radio' name='committee' value="Swaran Singh Committee" />
+              </div>
               <label>Swaran Singh Committee</label>
             </div>
 
             <div className='opti-2'>
-              <input type='radio' name='committee' value="Balwantrai Mehta Committee" />
+              <div className='input-but'>
+                <input type='radio' name='committee' value="Balwantrai Mehta Committee" />
+              </div>
               <label>Balwantrai Mehta Committee</label>
             </div>
 

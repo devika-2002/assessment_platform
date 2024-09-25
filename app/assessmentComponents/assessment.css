@@ -75,12 +75,12 @@ body {
 
 }
 
-.assessment-container {
+.assessment-row {
     width: 1200px;
     margin: auto;
 }
 
-.assessment {
+.assessment-container {
     display: flex;
     justify-content: space-between;
     width: 894px;
@@ -88,9 +88,17 @@ body {
     margin-left: 103px;
 }
 
-.Mcq-container {
+.assessment {
     margin-top: 66px;
+}
+
+.Mcq-container {
     width: 560px;
+    margin-bottom: 40px;
+}
+
+.assessment2 {
+    margin-top: 40px;
 }
 
 .question-score {
@@ -157,13 +165,30 @@ label {
     margin-left: 16px;
 }
 
+.opti-1 {
+    display: flex;
+}
+
+.input-but {
+    margin-top: 1px;
+}
+
 .opti-2 {
     margin-top: 12px;
+    display: flex;
 }
 
 .que-div2 {
     margin-top: 40px;
     width: 560px;
+}
+
+.assessment-footer {
+    margin-top: 96px;
+}
+
+.footer-container {
+    margin-top: 0px;
 }
 
 @media (max-width: 576px) {
@@ -187,15 +212,18 @@ label {
         right: 19px;
     }
 
+    .assessment-row {
+        width: 100%;
+    }
+
     .assessment-container {
         width: 100%;
+        display: block;
         margin: auto;
     }
 
     .assessment {
-        width: 100%;
-        margin: auto;
-        display: block;
+        margin-top: 0px;
     }
 
     .timer-container {
@@ -203,11 +231,9 @@ label {
     }
 
     .Mcq-container {
-        margin-top: 0;
         width: 100%;
         padding: 0px 20px 0px;
     }
-
 
     .question-score {
         width: 100%;

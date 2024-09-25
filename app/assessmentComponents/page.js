@@ -9,13 +9,22 @@ function McqComponent() {
   return (
     <div className='mcq-div'>
       <Header />
-      <div className='assessment-container'>
-        <div className='assessment'>
+      <div className='assessment-row'>
+        <div className='assessment-container'>
           <Filter />
-          <Assessment />
+
+          <div className='assessment'>
+            <Assessment />
+            <Assessment />
+            <Assessment />
+            <Assessment />
+            <Assessment />
+          </div>
         </div>
       </div>
-      <Footer />
+      <div className='assessment-footer'>
+        <Footer />
+      </div>
     </div>
   )
 }
