@@ -3,7 +3,7 @@ import Header from './Header';
 import "./assessment.css";
 import Assessment from './Assessment';
 import Footer from "../Components/Footer";
-import Filter from './Filter';
+import Filter from './timerFilter';
 
 function McqComponent() {
   return (
