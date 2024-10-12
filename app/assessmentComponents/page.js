@@ -3,7 +3,7 @@ import Header from './Header';
 import "./assessment.css";
 import Assessment from './Assessment';
 import Footer from "../Components/Footer";
-import Filter from './timerFilter';
+import TimerFilter from './TimerFilter';
 
 function McqComponent() {
   return (
@@ -11,7 +11,7 @@ function McqComponent() {
       <Header />
       <div className='assessment-row'>
         <div className='assessment-container'>
-          <Filter />
+          <TimerFilter/>
 
           <div className='assessment'>
             <Assessment />
